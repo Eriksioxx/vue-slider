@@ -27,3 +27,13 @@ const slides = [
 ];
 
 console.log(slides);
+
+const app = new Vue({
+    el: '#app',
+    data: {
+        slides,
+        activeSlideIndex: 0,
+
+    }
+
+})
